@@ -85,8 +85,8 @@
     fill: $slate-secondary-5;
     // use this to change the axis label
     & span:first-child {
-      &:after {
-        content: "%";
+      &:before {
+        content: "$";
     }
     }
   }
