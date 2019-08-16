@@ -1,18 +1,18 @@
 // adds social class to get social chart
-// let element = document.getElementsByClassName("chart-area");
-// for(var i = 0; i < element.length; i++)
-// {
-//     element[i].className += " social";
-// }
+let element = document.getElementsByClassName("chart-area");
+for(var i = 0; i < element.length; i++)
+{
+    element[i].className += " social";
+}
 
 // bolds the subhead if there is no headline
-let subhead = document.getElementsByClassName("chart-subhead"),
-    headline = document.getElementById("chart-head");
-    if (!headline) {
-        for(var i = 0; i < subhead.length; i++) {
-            subhead.className += " strong";
-        }       
-     }
+// let subhead = document.getElementsByClassName("chart-subhead"),
+//     headline = document.getElementById("chart-head");
+//     if (!headline) {
+//         for(var i = 0; i < subhead.length; i++) {
+//             subhead.className += " strong";
+//         }       
+//      }
 
 Highcharts.setOptions({
     lang: {

@@ -17,10 +17,10 @@
         display: block;
         margin-left: 30px;
         font-size: 28px;
-        margin-bottom: -46px !important;
+        // margin-bottom: -46px !important;
     }
     & .chart-container {
-        min-height: 520px;
+        height: 460px;
         margin-left: 10px;
         width: 80%;
     }
@@ -31,7 +31,7 @@
         text-transform: uppercase;
         letter-spacing: normal;
         font-weight: 600;
-        margin-top: -270px;
+        margin-top: -310px;
         margin-right: 80px;
         @include sm-md-xl {
             width: 160px;
